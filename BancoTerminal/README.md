@@ -1,18 +1,12 @@
-## Getting Started
+## Banco Terminal
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esse projeto simula uma criação de banco, permitindo o cliente cadastrar com o valor desejado.  
 
-## Folder Structure
+## Estrutura de arquivos
 
-The workspace contains two folders by default, where:
+Os códigos fontes se encontram na pasta src com dois arquivos principais:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src/BancoTerminal.java`: o arquivo possui toda a interação do usuário com o terminal com o main, scanner e a impressão do estatus da conta criada.
+- `src/ContaBanco.java`: possui toda regra de negócio incluindo verificação para a validação.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
